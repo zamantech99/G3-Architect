@@ -10,6 +10,10 @@
 /* *********************************** */
 
 
+*{
+    margin: 0;
+}
+
 .btn-primary {
     /* width: 180px;
     height: 64px;    */
@@ -29,6 +33,7 @@
 
 .text-light-gray {
     color: #727272;
+    margin-bottom: 20px;
 
 
 }
@@ -47,7 +52,7 @@
 /* *********************************** */
 
 header {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background: rgba(255, 144, 14, 0.10);
     padding: 50px 240px;
 }
@@ -111,7 +116,7 @@ nav li a {
 /* *********************************** */
 
 main {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     max-width: 1440px;
     margin: 70px auto;
 }
@@ -125,7 +130,7 @@ main {
 /* *********************************** */
 
 .teams-container {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: flex;
     align-items: center;
     /* display: none; */
@@ -165,7 +170,7 @@ main {
 /* *********************************** */
 
 .features {
-    border: 2px solid violet;
+    /* border: 2px solid violet; */
     display: flex;
     margin-top: 130px;
     gap: 100px;
@@ -173,6 +178,7 @@ main {
 }
 .feature-content h3{
     text-align: start;
+    margin-bottom: 20px;
     /* width: 468px; */
 }
 /* .feature-content p {
